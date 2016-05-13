@@ -6,9 +6,12 @@ package vn.fstyle.com.androidWheelPickerView.widget;
 
 import android.view.MotionEvent;
 
-// Referenced classes of package com.qingchifan.view:
-//            LoopView
+//
 
+/**
+ * Referenced classes of package com.qingchifan.view:
+ * LoopView
+ */
 final class LoopViewGestureListener extends android.view.GestureDetector.SimpleOnGestureListener {
 
     private final LoopView loopView;

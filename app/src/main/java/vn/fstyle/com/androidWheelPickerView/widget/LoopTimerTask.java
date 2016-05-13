@@ -7,9 +7,10 @@ package vn.fstyle.com.androidWheelPickerView.widget;
 import java.util.Timer;
 import java.util.TimerTask;
 
-// Referenced classes of package com.qingchifan.view:
-//            LoopView
-
+/**
+ * Referenced classes of package com.qingchifan.view:
+ * LoopView
+ */
 final class LoopTimerTask extends TimerTask {
 
     private float a;

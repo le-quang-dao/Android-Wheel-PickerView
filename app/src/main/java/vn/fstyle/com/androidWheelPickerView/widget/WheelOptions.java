@@ -8,7 +8,7 @@ import vn.fstyle.com.androidWheelPickerView.R;
 /**
  * WheelOptions.
  *
- * @author DaoLQ
+ * @author  DaoLQ
  */
 final class WheelOptions {
     private final WheelPickerView view;

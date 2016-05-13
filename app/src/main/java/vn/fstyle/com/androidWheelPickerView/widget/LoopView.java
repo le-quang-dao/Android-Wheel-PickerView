@@ -17,7 +17,7 @@ import java.util.Timer;
 /**
  * LoopView
  *
- * @author DaoLQ
+ * @author  DaoLQ
  */
 public class LoopView extends View {
     java.util.Timer timer;

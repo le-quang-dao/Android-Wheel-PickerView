@@ -7,9 +7,10 @@ package vn.fstyle.com.androidWheelPickerView.widget;
 import android.os.Handler;
 import android.os.Message;
 
-// Referenced classes of package com.qingchifan.view:
-//            LoopView
-
+/**
+ * Referenced classes of package com.qingchifan.view:
+ * LoopView
+ */
 final class MessageHandler extends Handler {
 
     private final LoopView a;

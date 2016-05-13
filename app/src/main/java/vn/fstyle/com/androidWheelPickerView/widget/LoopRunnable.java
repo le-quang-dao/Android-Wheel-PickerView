@@ -4,15 +4,16 @@
 
 package vn.fstyle.com.androidWheelPickerView.widget;
 
-// Referenced classes of package com.qingchifan.view:
-//            LoopView, LoopListener
-
+/**
+ * Referenced classes of package com.qingchifan.view:
+ * LoopView, LoopListener
+ */
 final class LoopRunnable implements Runnable {
 
     public interface LoopListener {
         void onItemSelect(int item);
     }
-    
+
     private final LoopView mLoopView;
 
     LoopRunnable(LoopView loopview) {

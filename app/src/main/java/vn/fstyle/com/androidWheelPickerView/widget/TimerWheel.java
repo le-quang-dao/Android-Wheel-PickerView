@@ -7,6 +7,9 @@ package vn.fstyle.com.androidWheelPickerView.widget;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * TimerWheel.
+ */
 final class TimerWheel extends TimerTask {
 
     private int a;

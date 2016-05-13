@@ -12,7 +12,7 @@ import java.util.List;
 import vn.fstyle.com.androidWheelPickerView.R;
 
 /**
- * WheelPickerView.
+ * WheelPickerView
  *
  * @author DaoLQ
  */
