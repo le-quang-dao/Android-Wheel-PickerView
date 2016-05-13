@@ -4,9 +4,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="vn.fstyle.com.androidWheelPickerView.MainActivity">
-
-    <vn.fstyle.com.androidWheelPickerView.widget.WheelPickerView
-        android:id="@+id/wheelPicker"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
