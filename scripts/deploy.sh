@@ -15,4 +15,4 @@ echo "$REQUEST_URL"
 curl -H "Authorization: token $GITHUB_ACCESS_TOKEN" "${REQUEST_URL}" \
 | python -c 'import json,sys;obj=json.load(sys.stdin);print "Owner: "+obj["user"]["login"];print "Reviewer: "+("No assignee",obj["assignee"]["login"])[obj["assignee"] is not None];print obj["body"]' > "$NOTE_FILE_NAME"
 #Upload fabric beta
-./gradlew crashlyticsUploadDistributionDebug
+./gradlew assembleDebug crashlyticsUploadDistributionDebug
