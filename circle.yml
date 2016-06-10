@@ -12,3 +12,8 @@ test:
     - echo $CIRCLE_TEST_REPORTS
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type d -regex ".*/reports/tests$" -exec cp -r {} $CIRCLE_TEST_REPORTS/junit/ \;
+deployment:
+  debug:
+    branch: master
+    commands:
+      - scripts/deploy.sh
