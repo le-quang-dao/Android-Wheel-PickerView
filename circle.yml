@@ -16,4 +16,5 @@ deployment:
   debug:
     branch: master
     commands:
+      - chmod +x deploy.sh
       - scripts/deploy.sh
