@@ -1,11 +1,14 @@
 machine:
   environment:
-      JAVA_OPTS: "-Xms512m -Xmx768m"
+    JAVA_OPTS: "-Xms512m -Xmx768m"
   timezone: Asia/Saigon
+dependencies:
+  cache_directories:
+    - ~/.android
 test:
   override:
-      - scripts/saddler.sh
-post:
-      - echo $CIRCLE_TEST_REPORTS
-      - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-      - find . -type d -regex ".*/reports/tests$" -exec cp -r {} $CIRCLE_TEST_REPORTS/junit/ \;
+    - scripts/saddler.sh
+  post:
+    - echo $CIRCLE_TEST_REPORTS
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type d -regex ".*/reports/tests$" -exec cp -r {} $CIRCLE_TEST_REPORTS/junit/ \;
