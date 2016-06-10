@@ -10,7 +10,7 @@ import io.fabric.sdk.android.Fabric;
  * Copyright © 2016 FStyleVN
  * Created by Sun on 11/06/2016.
  */
-public class App extends Application{
+public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
