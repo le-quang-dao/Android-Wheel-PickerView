@@ -22,4 +22,5 @@
             android:name="io.fabric.ApiKey"
             android:value="afa5b4969ced7faced055aca28be45ea3adfaa5f" />
     </application>
+
 </manifest>
