@@ -17,7 +17,7 @@ import java.util.Timer;
 /**
  * LoopView
  *
- * @author  DaoLQ
+ * @author DaoLQ
  */
 public class LoopView extends View {
     java.util.Timer timer;
@@ -65,6 +65,18 @@ public class LoopView extends View {
     public LoopView(Context context, AttributeSet attributeset, int i1) {
         super(context, attributeset, i1);
         initLoopView(context);
+    }
+
+    public void setTextSize(int textSize) {
+        this.textSize = textSize;
+    }
+
+    public void setTextColor(int color) {
+        this.colorGray = color;
+    }
+
+    public void setTextColorSelected(int color) {
+        this.colorBlack = color;
     }
 
     private void initLoopView(Context context) {

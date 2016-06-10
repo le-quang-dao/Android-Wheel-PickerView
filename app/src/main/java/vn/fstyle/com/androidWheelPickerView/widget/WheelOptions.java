@@ -13,6 +13,7 @@ import vn.fstyle.com.androidWheelPickerView.R;
 final class WheelOptions {
     private final WheelPickerView view;
     private LoopView mLoopView;
+    private int mLoop = 0;
 
     private WheelPickerView.OnOptionChangedListener mOnOptionChangedListener;
 
@@ -26,16 +27,18 @@ final class WheelOptions {
         this.mOnOptionChangedListener = listener;
     }
 
-    public void setPicker(List<String> items) {
+    public void setPicker(final List<String> items) {
         List<String> mOptionsItems = items == null ? new ArrayList<String>() : items;
         mLoopView = (LoopView) view.findViewById(R.id.loopView);
         mLoopView.setArrayList(mOptionsItems);
-        mLoopView.setCurrentItem(0);
         mLoopView.setNotLoop();
-
         mLoopView.setListener(new LoopRunnable.LoopListener() {
             @Override
             public void onItemSelect(int item) {
+                mLoop++;
+                if (mLoop < items.size() / 2) {
+                    return;
+                }
                 doItemChange();
             }
         });
