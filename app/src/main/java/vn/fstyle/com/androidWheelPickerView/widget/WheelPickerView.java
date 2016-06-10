@@ -50,6 +50,7 @@ public class WheelPickerView extends FrameLayout {
         int textSize = typedArray.getDimensionPixelOffset(R.styleable.WheelPickerView_itemTextSize,
                 getResources().getDimensionPixelOffset(R.dimen.activity_horizontal_margin));
         item.setTextSize(textSize);
+        typedArray.recycle();
         wheelOptions = new WheelOptions(this);
     }
 
