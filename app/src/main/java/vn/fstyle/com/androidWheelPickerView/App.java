@@ -8,7 +8,7 @@ import io.fabric.sdk.android.Fabric;
 
 /**
  * Copyright © 2016 FStyleVN
- * Created by Sun on 10/06/2016.
+ * Created by Sun on 11/06/2016.
  */
 public class App extends Application {
     @Override

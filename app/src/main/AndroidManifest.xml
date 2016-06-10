@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vn.fstyle.com.androidWheelPickerView">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -20,6 +22,4 @@
             android:name="io.fabric.ApiKey"
             android:value="afa5b4969ced7faced055aca28be45ea3adfaa5f" />
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
