@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="vn.fstyle.com.androidWheelPickerView.MainActivity">
+
+    <vn.fstyle.whellpicker.WheelPickerView
+        android:id="@+id/wheelPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:itemTextSize="20dp"
+        app:itemTextColor="@android:color/darker_gray"
+        app:itemTextColorSelect="@color/itemTextColor"/>
+
+</RelativeLayout>
