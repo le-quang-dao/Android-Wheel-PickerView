@@ -11,7 +11,7 @@
         android:layout_weight="1"
         android:padding="4dip">
 
-        <vn.fstyle.com.androidWheelPickerView.widget.LoopView
+        <vn.fstyle.whellpicker.LoopView
             android:id="@+id/loopView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
