@@ -6,14 +6,14 @@
 
 #####How to use:
 ```xml
-<vn.fstyle.com.androidWheelPickerView.widget.WheelPickerView
+<vn.fstyle.whellpicker.WheelPickerView
         android:id="@+id/wheelPicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        app:itemTextSize="20dp"
         app:itemTextColor="@android:color/darker_gray"
-        app:itemTextColorSelect="@color/itemTextColor"/>
+        app:itemTextColorSelect="@color/itemTextColor"
+        app:itemTextSize="20dp" />
 ```
 ```java
 WheelPickerView pickerView = (WheelPickerView) findViewById(R.id.wheelPicker);
@@ -45,6 +45,6 @@ allprojects {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-	        compile 'com.github.DaoLQ:Android-Wheel-PickerView:1.0'
+    compile 'com.github.DaoLQ:Android-Wheel-PickerView:1.0.1'
 }
 ```
