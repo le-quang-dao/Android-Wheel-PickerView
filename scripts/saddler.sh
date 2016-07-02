@@ -13,7 +13,7 @@ fi
 echo "********************"
 echo "* exec gradle      *"
 echo "********************"
-./gradlew :sample:check -PdisablePreDex
+./gradlew :sample:check
 
 if [ $? -ne 0 ]; then
     echo 'Failed gradle check task.'
