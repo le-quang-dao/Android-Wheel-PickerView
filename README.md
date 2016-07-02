@@ -5,7 +5,17 @@
 ------------------------------------------------------------------------
 
 #####How to use:
+```xml
+<vn.fstyle.com.androidWheelPickerView.widget.WheelPickerView
+        android:id="@+id/wheelPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:itemTextSize="20dp"
+        app:itemTextColor="@android:color/darker_gray"
+        app:itemTextColorSelect="@color/itemTextColor"/>
 ```
+```java
 WheelPickerView pickerView = (WheelPickerView) findViewById(R.id.wheelPicker);
         List<String> strings = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
@@ -23,7 +33,7 @@ WheelPickerView pickerView = (WheelPickerView) findViewById(R.id.wheelPicker);
 
 Step 1. Add it in your root build.gradle at the end of repositories:
 
-```
+```gradle
 allprojects {
 	repositories {
 		...
@@ -33,7 +43,7 @@ allprojects {
 ```
 
 Step 2. Add the dependency
-```
+```gradle
 dependencies {
 	        compile 'com.github.DaoLQ:Android-Wheel-PickerView:1.0'
 }
