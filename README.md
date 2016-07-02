@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-How to use:
+#####How to use:
 ```
 WheelPickerView pickerView = (WheelPickerView) findViewById(R.id.wheelPicker);
         List<String> strings = new ArrayList<>();
@@ -18,4 +18,23 @@ WheelPickerView pickerView = (WheelPickerView) findViewById(R.id.wheelPicker);
                 Log.d(TAG, "DebugLog onOptionChanged " + option);
             }
         });
+```
+#####Gradle:
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+Step 2. Add the dependency
+```
+dependencies {
+	        compile 'com.github.DaoLQ:Android-Wheel-PickerView:1.0'
+}
 ```
