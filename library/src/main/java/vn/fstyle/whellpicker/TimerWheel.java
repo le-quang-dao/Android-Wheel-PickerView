@@ -2,7 +2,7 @@
 // Jad home page: http://www.geocities.com/kpdus/jad.html
 // Decompiler options: braces fieldsfirst space lnc 
 
-package vn.fstyle.com.androidWheelPickerView.widget;
+package vn.fstyle.whellpicker;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -15,7 +15,7 @@ final class TimerWheel extends TimerTask {
     private int a;
     private int b;
     private final int c;
-    private final java.util.Timer timer;
+    private final Timer timer;
     private final LoopView loopView;
 
     TimerWheel(LoopView loopview, int i, Timer timer) {

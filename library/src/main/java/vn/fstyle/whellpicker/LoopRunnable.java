@@ -2,7 +2,7 @@
 // Jad home page: http://www.geocities.com/kpdus/jad.html
 // Decompiler options: braces fieldsfirst space lnc 
 
-package vn.fstyle.com.androidWheelPickerView.widget;
+package vn.fstyle.whellpicker;
 
 /**
  * Referenced classes of package com.qingchifan.view:

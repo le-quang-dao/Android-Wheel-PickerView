@@ -1,9 +1,9 @@
-package vn.fstyle.com.androidWheelPickerView.widget;
+package vn.fstyle.whellpicker;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import vn.fstyle.com.androidWheelPickerView.R;
+import vn.fstyle.library.R;
 
 /**
  * WheelOptions.

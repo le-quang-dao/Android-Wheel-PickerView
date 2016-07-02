@@ -1,4 +1,4 @@
-package vn.fstyle.com.androidWheelPickerView.widget;
+package vn.fstyle.whellpicker;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -20,7 +20,7 @@ import java.util.Timer;
  * @author DaoLQ
  */
 public class LoopView extends View {
-    java.util.Timer timer;
+    Timer timer;
     int totalScrollY;
     Handler handler;
     LoopRunnable.LoopListener loopListener;
@@ -167,7 +167,7 @@ public class LoopView extends View {
 
     private void f() {
         int i1 = (int) ((float) totalScrollY % (l * (float) h));
-        java.util.Timer timer = new Timer();
+        Timer timer = new Timer();
         this.timer = timer;
         timer.schedule(new TimerWheel(this, i1, timer), 0L, 10L);
     }
@@ -211,7 +211,7 @@ public class LoopView extends View {
     }
 
     final void b(float f1) {
-        java.util.Timer timer = new java.util.Timer();
+        Timer timer = new Timer();
         this.timer = timer;
         timer.schedule(new LoopTimerTask(this, f1, timer), 0L, 50L);
     }

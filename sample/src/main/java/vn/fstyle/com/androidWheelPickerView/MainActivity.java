@@ -7,7 +7,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import vn.fstyle.com.androidWheelPickerView.widget.WheelPickerView;
+import vn.fstyle.whellpicker.WheelPickerView;
 
 public class MainActivity extends AppCompatActivity {
 
